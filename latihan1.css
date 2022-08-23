@@ -1,0 +1,69 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5efe5;
+}
+
+section {
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+    padding: 140px;
+    box-sizing: border-box;
+}
+
+
+
+img {
+    margin: 30px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+
+img:hover {
+    transform: scale(1.2) rotateY(360deg);
+    -webkit-transform: scale(1.2) rotateY(360deg);
+    -moz-transform: scale(1.2) rotateY(360deg);
+    -ms-transform: scale(1.2) rotateY(360deg);
+    -o-transform: scale(1.2) rotateY(360deg);
+    transition: 1s all ease-out;
+    -webkit-transition: 1s all ease-out;
+    -moz-transition: 1s all ease-out;
+    -ms-transition: 1s all ease-out;
+    -o-transition: 1s all ease-out;
+}
+
+.info {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -310px;
+    text-align: center;
+    width: 280px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.info:hover {
+    transform: scale(1.2) rotateY(360deg);
+    -webkit-transform: scale(1.2) rotateY(360deg);
+    -moz-transform: scale(1.2) rotateY(360deg);
+    -ms-transform: scale(1.2) rotateY(360deg);
+    -o-transform: scale(1.2) rotateY(360deg);
+    transition: 1s all ease-in;
+    -webkit-transition: 1s all ease-in;
+    -moz-transition: 1s all ease-in;
+    -ms-transition: 1s all ease-in;
+    -o-transition: 1s all ease-in;
+    position: relative;
+    z-index: 9999;
+}
